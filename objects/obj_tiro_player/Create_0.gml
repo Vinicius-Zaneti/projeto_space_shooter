@@ -10,3 +10,4 @@ image_yscale = 3;
 
 // Fazendo com que o tiro tenha um tempo determinado
 alarm [0] = 2;
+
