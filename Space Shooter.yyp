@@ -44,6 +44,7 @@
     {"id":{"name":"obj_tiro_player","path":"objects/obj_tiro_player/obj_tiro_player.yy",},},
     {"id":{"name":"spr_tiro_inimigo01","path":"sprites/spr_tiro_inimigo01/spr_tiro_inimigo01.yy",},},
     {"id":{"name":"spr_inimgo02","path":"sprites/spr_inimgo02/spr_inimgo02.yy",},},
+    {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
     {"id":{"name":"spr_bg_extra2","path":"sprites/spr_bg_extra2/spr_bg_extra2.yy",},},
     {"id":{"name":"obj_explosao","path":"objects/obj_explosao/obj_explosao.yy",},},
     {"id":{"name":"spr_impacto_tiro","path":"sprites/spr_impacto_tiro/spr_impacto_tiro.yy",},},
