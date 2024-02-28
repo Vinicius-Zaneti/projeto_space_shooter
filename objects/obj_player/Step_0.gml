@@ -51,4 +51,10 @@ _right = keyboard_check(ord("D"));
 y += ( _down - _up) * vel;
 x += (_right - _left) * vel;
 
+// criando o tiro
 atirando();
+
+
+show_debug_message(alarm[0]);
+
+
