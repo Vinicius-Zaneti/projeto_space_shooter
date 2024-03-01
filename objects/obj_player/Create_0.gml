@@ -4,8 +4,11 @@
 // declarando variavel de velocidade
 vel = 5;
 
+level_tiro = 1; 
 //variavel para fazer o tiro ter um intervalo de tempo
-espera_tiro = room_speed / 4;
+espera_tiro = game_get_speed(gamespeed_fps);
+
+
 
 // Criando método/função para guardar o código de tiro
 atirando = function () {
@@ -22,10 +25,21 @@ if(_fire && alarm[0] == -1){
 	//Criar o tiro na hora que eu apertei espaço
 	// E depois, só atirar novamente em 1 segundo
 	
-	//Codigo para criar o tiro
+	//Criando uma condição para atirar dependendo do level do tiro
+	//Tiro do level 1
+	if(level_tiro == 1) {
+		
 	instance_create_layer(x,y -sprite_height/3, "Tiros", obj_tiro_player);	
-
 	
+	}
+	
+	//Tiro do level 2
+	
+	else if(level_tiro == 2) {
+		
+	instance_create_layer(x,y -sprite_height/3, "Tiros", obj_tiro2_player);	
+	
+	}
 
 }
 	
